@@ -1,5 +1,21 @@
 import 'package:flutter/material.dart';
+import 'Features/Splash/presentation/Screens/Splash_Screen.dart'; // Corrected import statement
 
 void main() {
-  runApp(const MaterialApp(home: Center(child: Text('Hello World'))));
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const SplashScreen(),
+    );
+  }
 }
