@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:safe_com/Features/Home/presentation/pages/home_screen.dart';
+import 'package:safe_com/Features/Presentation/Presentation/Screens/third_screen.dart';
+
 
 class SecondScreenContent extends StatelessWidget {
   final Animation<double> fadeAnimation;
@@ -10,7 +12,7 @@ class SecondScreenContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        // Background image
+        // Background image with fade animation
         FadeTransition(
           opacity: fadeAnimation,
           child: Center(
@@ -22,9 +24,9 @@ class SecondScreenContent extends StatelessWidget {
             ),
           ),
         ),
-        // Overlay with a message (Title)
+        // Overlay with a title
         Positioned(
-          bottom: 300,
+          bottom: 290,
           left: 20,
           right: 20,
           child: FadeTransition(
@@ -34,15 +36,15 @@ class SecondScreenContent extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 28,
+                fontSize: 26,
                 fontWeight: FontWeight.bold,
               ),
             ),
           ),
         ),
-        // Overlay with a message (Description)
+        // Overlay with a description
         Positioned(
-          bottom: 160,
+          bottom: 150,
           left: 20,
           right: 20,
           child: FadeTransition(
@@ -54,14 +56,12 @@ class SecondScreenContent extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 18,
-                fontStyle: FontStyle.italic,
+                fontSize: 20,
               ),
             ),
           ),
         ),
-
-        // Get Started Button
+        // "Get Started"
         Positioned(
           bottom: 50,
           right: 20,
@@ -71,7 +71,7 @@ class SecondScreenContent extends StatelessWidget {
               onPressed: () {
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => const HomeScreen()),
+                  MaterialPageRoute(builder: (context) => const ThirdScreen()),
                 );
               },
               style: ElevatedButton.styleFrom(
@@ -89,14 +89,12 @@ class SecondScreenContent extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,
-                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
           ),
         ),
-
-        // "Skip" Button
+        // "Skip"
         Positioned(
           bottom: 50,
           left: 20,
@@ -106,15 +104,14 @@ class SecondScreenContent extends StatelessWidget {
               onPressed: () {
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => const HomeScreen()),
+                  MaterialPageRoute(builder: (context) => const ThirdScreen()),
                 );
               },
               child: const Text(
                 'Skip',
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.grey,
                   fontSize: 18,
-                  fontWeight: FontWeight.w500,
                 ),
               ),
             ),
