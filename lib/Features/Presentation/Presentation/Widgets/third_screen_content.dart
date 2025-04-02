@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/Features/Home/presentation/pages/home_screen.dart';
+
 
 class ThirdScreenContent extends StatelessWidget {
   final Animation<double> fadeAnimation;
@@ -54,7 +54,7 @@ class ThirdScreenContent extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 18,
+                fontSize: 20,
                 fontStyle: FontStyle.italic,
               ),
             ),
