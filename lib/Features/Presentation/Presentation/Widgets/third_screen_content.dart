@@ -23,7 +23,7 @@ class ThirdScreenContent extends StatelessWidget {
             ),
           ),
         ),
-        // Overlay with a message (Title)
+        // Overlay with a message
         Positioned(
           bottom: 300,
           left: 20,

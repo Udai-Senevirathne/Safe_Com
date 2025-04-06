@@ -4,6 +4,7 @@ import 'package:safe_com/Features/Presentation/Presentation/Screens/second_scree
 import 'package:safe_com/Features/Presentation/Presentation/Screens/third_screen.dart';
 import 'package:safe_com/features/home/presentation/pages/home_screen.dart';
 import 'package:safe_com/core/navigation/app_routes.dart';
+import 'package:safe_com/Features/Presentation/Presentation/Screens/email_login.dart';
 
 
 class AppNavigator {
@@ -20,6 +21,9 @@ class AppNavigator {
 
       case AppRoutes.thirdScreen:
         return MaterialPageRoute(builder: (_) => const ThirdScreen());
+
+      case AppRoutes.email_log:
+        return MaterialPageRoute(builder: (_) => EmailLogin());
 
       case AppRoutes.home:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
@@ -47,3 +51,4 @@ class AppNavigator {
     }
   }
 }
+
