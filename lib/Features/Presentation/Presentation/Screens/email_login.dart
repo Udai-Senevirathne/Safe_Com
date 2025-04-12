@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/core/navigation/AppNavigator.dart';
-
+import 'package:safe_com/Features/Presentation/Presentation/Widgets/email_login_content.dart';
 
 class EmailLogin extends StatelessWidget {
+  const EmailLogin({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text("Email Login Page")),
-    );
+    return const EmailLoginContent(); // Use your custom widget here
   }
 }

@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       navigatorKey: AppNavigator.navigatorKey, // Use the global navigator key
       onGenerateRoute: AppNavigator.generateRoute, // Set up named routes
-      initialRoute: AppRoutes.splash, // Set the initial route
+      initialRoute: AppRoutes.otp, // Set the initial route
 
     );
   }

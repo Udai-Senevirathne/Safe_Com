@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/Splash_Screen.dart';
+import 'package:safe_com/Features/Presentation/Presentation/Screens/otp_screen.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/second_screen.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/third_screen.dart';
 import 'package:safe_com/features/home/presentation/pages/home_screen.dart';
@@ -24,6 +25,9 @@ class AppNavigator {
 
       case AppRoutes.email_log:
         return MaterialPageRoute(builder: (_) => EmailLogin());
+
+      case AppRoutes.otp:
+        return MaterialPageRoute(builder: (_) => const OtpScreen());
 
       case AppRoutes.home:
         return MaterialPageRoute(builder: (_) => const HomeScreen());

@@ -4,6 +4,7 @@ class AppRoutes {
   static const String thirdScreen = '/thirdScreen';
   static const String home = '/home';
   static const String email_log = '/email_log';
+  static const String otp = '/otp';
 
 
 
