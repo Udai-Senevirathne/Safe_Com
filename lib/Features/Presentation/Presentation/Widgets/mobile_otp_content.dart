@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:safe_com/Core/navigation/appnavigator.dart';
 import 'package:safe_com/core/navigation/app_routes.dart';
 
-class OtpContent extends StatefulWidget {
-  const OtpContent({super.key});
+class MobileOtpContent extends StatefulWidget {
+  const MobileOtpContent({super.key});
 
   @override
-  _OtpContentState createState() => _OtpContentState();
+  _MobileOtpContentState createState() => _MobileOtpContentState();
 }
 
-class _OtpContentState extends State<OtpContent> {
+class _MobileOtpContentState extends State<MobileOtpContent> {
   final List<FocusNode> _focusNodes = List.generate(4, (_) => FocusNode());
   final List<TextEditingController> _controllers =
   List.generate(4, (_) => TextEditingController());
@@ -62,7 +62,7 @@ class _OtpContentState extends State<OtpContent> {
               Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  'Enter the 4 digit code that sent via email',
+                  'Enter the 4 digit code sent via SMS',
                   style: TextStyle(fontSize: 14),
                   textAlign: TextAlign.center,
                 ),
@@ -81,7 +81,6 @@ class _OtpContentState extends State<OtpContent> {
               const SizedBox(height: 10),
 
               // OTP boxes centered
-
               Align(
                 alignment: Alignment.centerLeft,
                 child: Row(
@@ -108,7 +107,6 @@ class _OtpContentState extends State<OtpContent> {
                   }),
                 ),
               ),
-
 
               const SizedBox(height: 10),
 
@@ -141,7 +139,6 @@ class _OtpContentState extends State<OtpContent> {
 
               const SizedBox(height: 30),
 
-
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
@@ -171,16 +168,15 @@ class _OtpContentState extends State<OtpContent> {
 
               TextButton(
                 onPressed: () {
-                  // TODO: Change email logic
+                  // TODO: Change phone number logic
                 },
                 child: const Text(
-                  'Change your email address..?',
+                  'Change your phone number..? ',
                   style: TextStyle(
                     color: Colors.black54,
-
                   ),
                 ),
-              )
+              ),
             ],
           ),
         ),

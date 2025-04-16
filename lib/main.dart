@@ -13,14 +13,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Remove debug banner globally
+      // Remove debug banner globally
+      debugShowCheckedModeBanner: false,
       title: 'SafeCom',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       navigatorKey: AppNavigator.navigatorKey, // Use the global navigator key
-      onGenerateRoute: AppNavigator.generateRoute, // Set up named routes
-      initialRoute: AppRoutes.otp, // Set the initial route
+      onGenerateRoute: AppNavigator.generateRoute,
+      initialRoute: AppRoutes.home_harras,
 
     );
   }

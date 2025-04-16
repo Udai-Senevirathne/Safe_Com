@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/Features/Home/presentation/pages/home_screen.dart';
+import 'package:safe_com/Features/Home/presentation/pages/Home_harras.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/third_screen.dart';
 
 
@@ -26,7 +26,7 @@ class SecondScreenContent extends StatelessWidget {
         ),
         // Overlay with a title
         Positioned(
-          bottom: 290,
+          bottom: 315,
           left: 20,
           right: 20,
           child: FadeTransition(

@@ -84,7 +84,7 @@ class _EmailLoginContentState extends State<EmailLoginContent> {
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        AppNavigator.replaceWith(AppRoutes.home);
+                        AppNavigator.replaceWith(AppRoutes.home_harras);
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.red[700],
