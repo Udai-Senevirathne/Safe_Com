@@ -10,6 +10,9 @@ class AppRoutes {
   static const String before_home = '/before_home';
   static const String home_harras = '/home_harras';
   static const String home_disaster = '/home_disaster';
+  static const String tips = '/tips';
+  static const String profile = '/profile';
+  static const String reportSomething = '/reportSomething';
 
 
 
