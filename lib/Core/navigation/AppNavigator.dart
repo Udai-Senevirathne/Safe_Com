@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:safe_com/Features/Home/presentation/pages/home_disaster.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/Splash_Screen.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/before_home.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/login_screen.dart';
@@ -48,8 +49,8 @@ class AppNavigator {
       case AppRoutes.home_harras:
         return MaterialPageRoute(builder: (_) => const HomeHarras());
 
-      // case AppRoutes.home_disaster:
-      //   return MaterialPageRoute(builder: (_) => const HomeDisaster());
+       case AppRoutes.home_disaster:
+        return MaterialPageRoute(builder: (_) => const HomeDisaster());
 
       default:
         return MaterialPageRoute(
