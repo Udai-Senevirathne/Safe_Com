@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ReportContent extends StatefulWidget {
-  const ReportContent({Key? key}) : super(key: key);
+class ReportContentTwo extends StatefulWidget {
+  const ReportContentTwo({Key? key}) : super(key: key);
 
   @override
-  State<ReportContent> createState() => _ReportContentState();
+  State<ReportContentTwo> createState() => _ReportContentState();
 }
 
-class _ReportContentState extends State<ReportContent> {
+class _ReportContentState extends State<ReportContentTwo> {
   String _selectedDisaster = "Tsunami";
 
   @override
@@ -32,22 +32,6 @@ class _ReportContentState extends State<ReportContent> {
                 ),
               ),
               const SizedBox(height: 16.0),
-              const Text(
-                "Type of disaster",
-                style: TextStyle(fontSize: 16.0),
-              ),
-              const SizedBox(height: 8.0),
-              Wrap(
-                spacing: 8.0,
-                runSpacing: 4.0,
-                children: [
-                  _buildRadioOption("Tsunami"),
-                  _buildRadioOption("Flood"),
-                  _buildRadioOption("Landslides"),
-                  _buildRadioOption("Others"),
-                ],
-              ),
-              const SizedBox(height: 16.0),
               const Text("Select location", style: TextStyle(fontSize: 16.0)),
               const SizedBox(height: 8.0),
               TextField(
@@ -62,6 +46,22 @@ class _ReportContentState extends State<ReportContent> {
                   ),
                 ),
               ),
+              const SizedBox(height: 16.0),
+              const Text(
+                "Gender",
+                style: TextStyle(fontSize: 16.0),
+              ),
+              const SizedBox(height: 8.0),
+              Wrap(
+                spacing: 8.0,
+                runSpacing: 4.0,
+                children: [
+                  _buildRadioOption("Male"),
+                  _buildRadioOption("Female"),
+                  _buildRadioOption("Other"),
+                ],
+              ),
+
               const SizedBox(height: 16.0),
               const Text("Description", style: TextStyle(fontSize: 16.0)),
               const SizedBox(height: 8.0),

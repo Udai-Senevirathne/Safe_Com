@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class TipsContent extends StatefulWidget {
-  const TipsContent({Key? key}) : super(key: key);
+class TipsDisasterContent extends StatefulWidget {
+  const TipsDisasterContent({Key? key}) : super(key: key);
 
   @override
-  State<TipsContent> createState() => _TipsContentState();
+  State<TipsDisasterContent> createState() => _TipsContentState();
 }
 
-class _TipsContentState extends State<TipsContent> {
-  String selectedTab = "Harassment";
+class _TipsContentState extends State<TipsDisasterContent> {
+  String selectedTab = "Disaster";
 
   @override
   Widget build(BuildContext context) {
@@ -36,10 +36,8 @@ class _TipsContentState extends State<TipsContent> {
                   fit: BoxFit.cover,
                 ),
               ),
-              const SizedBox(height: 24),
-              _buildOptionTile("Tips"),
               const SizedBox(height: 12),
-              _buildOptionTile("Counselling"),
+              _buildOptionTile("How to Behave"),
               const SizedBox(height: 12),
               _buildOptionTile("Contacts"),
             ],
@@ -123,3 +121,4 @@ class _TipsContentState extends State<TipsContent> {
     );
   }
 }
+

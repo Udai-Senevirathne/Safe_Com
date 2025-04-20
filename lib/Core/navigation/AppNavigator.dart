@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:safe_com/Features/Home/presentation/pages/home_disaster.dart';
+import 'package:safe_com/Features/Home/presentation/pages/tips.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/Splash_Screen.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/before_home.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/login_screen.dart';
@@ -11,6 +12,9 @@ import 'package:safe_com/Features/Presentation/Presentation/Screens/third_screen
 import 'package:safe_com/features/home/presentation/pages/Home_harras.dart';
 import 'package:safe_com/core/navigation/app_routes.dart';
 import 'package:safe_com/Features/Presentation/Presentation/Screens/email_login.dart';
+import 'package:safe_com/Features/Home/presentation/pages/report.dart';
+import 'package:safe_com/Features/Home/presentation/pages/report_two.dart';
+import 'package:safe_com/Features/Home/presentation/pages/tips_disaster.dart';
 
 
 class AppNavigator {
@@ -51,6 +55,18 @@ class AppNavigator {
 
        case AppRoutes.home_disaster:
         return MaterialPageRoute(builder: (_) => const HomeDisaster());
+
+      case AppRoutes.report:
+        return MaterialPageRoute(builder: (_) => const ReportScreen());
+
+        case AppRoutes.report_two:
+        return MaterialPageRoute(builder: (_) => const ReportScreenTwo());
+
+      case AppRoutes.tips:
+        return MaterialPageRoute(builder: (_) => const TipsScreen());
+
+      case AppRoutes.tips_disaster:
+        return MaterialPageRoute(builder: (_) => const TipsDisasterScreen());
 
       default:
         return MaterialPageRoute(

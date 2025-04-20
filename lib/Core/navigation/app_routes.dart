@@ -11,8 +11,11 @@ class AppRoutes {
   static const String home_harras = '/home_harras';
   static const String home_disaster = '/home_disaster';
   static const String tips = '/tips';
+  static const String tips_disaster = '/tips_disaster';
   static const String profile = '/profile';
   static const String reportSomething = '/reportSomething';
+  static const String report = '/report';
+  static const String report_two = '/report_two';
 
 
 
