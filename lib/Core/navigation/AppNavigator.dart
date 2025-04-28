@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/Features/Home/presentation/pages/home_disaster.dart';
-import 'package:safe_com/Features/Home/presentation/pages/tips.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/Splash_Screen.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/before_home.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/login_screen.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/mobile_otp.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/otp_screen.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/second_screen.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/setup_info.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/third_screen.dart';
-import 'package:safe_com/features/home/presentation/pages/Home_harras.dart';
-import 'package:safe_com/core/navigation/app_routes.dart';
-import 'package:safe_com/Features/Presentation/Presentation/Screens/email_login.dart';
-import 'package:safe_com/Features/Home/presentation/pages/report.dart';
-import 'package:safe_com/Features/Home/presentation/pages/report_two.dart';
-import 'package:safe_com/Features/Home/presentation/pages/tips_disaster.dart';
+import 'package:safe_com/Core/navigation/app_routes.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/Home_disaster.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/Home_harras.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/Otp_screen.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/Setup_info.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/Second_screen.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/Splash_screen.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/before_home.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/email_login.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/login_screen.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/mobile_otp.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/report.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/report_two.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/third_screen.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/tips.dart';
+import 'package:safe_com/Features/Presentation/Views/Screens/tips_disaster.dart';
+
 
 
 class AppNavigator {
