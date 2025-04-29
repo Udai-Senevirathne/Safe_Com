@@ -1,3 +1,3 @@
 # safe_com
 
-A new Flutter project.
+A Flutter App for Emergency Incidents Reporting 
