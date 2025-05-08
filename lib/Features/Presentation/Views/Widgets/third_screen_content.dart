@@ -4,8 +4,7 @@ import 'package:flutter/material.dart';
 class ThirdScreenContent extends StatelessWidget {
   final Animation<double> fadeAnimation;
 
-  const ThirdScreenContent({Key? key, required this.fadeAnimation})
-      : super(key: key);
+  const ThirdScreenContent({super.key, required this.fadeAnimation});
 
   @override
   Widget build(BuildContext context) {

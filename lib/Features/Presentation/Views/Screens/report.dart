@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/Features/Home/presentation/widgets/report_content.dart';
+import 'package:safe_com/Features/Presentation/Views/Widgets/report_content.dart';
 
 
 class ReportScreen extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TipsContent extends StatefulWidget {
-  const TipsContent({Key? key}) : super(key: key);
+  const TipsContent({super.key});
 
   @override
   State<TipsContent> createState() => _TipsContentState();

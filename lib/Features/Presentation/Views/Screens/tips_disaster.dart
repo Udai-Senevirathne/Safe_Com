@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/Features/Home/presentation/widgets/tips_disaster_content.dart';
+import 'package:safe_com/Features/Presentation/Views/Widgets/tips_disaster_content.dart';
 
 class TipsDisasterScreen extends StatefulWidget {
-  const TipsDisasterScreen({Key? key}) : super(key: key);
+  const TipsDisasterScreen({super.key});
 
   @override
   State<TipsDisasterScreen> createState() => _TipsDisasterScreenState();

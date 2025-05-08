@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/features/Presentation/Presentation/widgets/second_sc_content.dart';
+import 'package:safe_com/Features/Presentation/Views/Widgets/second_sc_content.dart';
 
 class SecondScreen extends StatefulWidget {
   const SecondScreen({super.key});

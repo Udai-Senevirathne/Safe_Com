@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:safe_com/features/Presentation/Presentation/widgets/third_screen_content.dart';
+import 'package:safe_com/Features/Presentation/Views/Widgets/third_screen_content.dart';
+
 
 class ThirdScreen extends StatefulWidget {
   const ThirdScreen({super.key});

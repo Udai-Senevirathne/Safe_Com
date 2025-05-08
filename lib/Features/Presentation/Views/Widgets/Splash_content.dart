@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/Core/constants/app_colors.dart';
 
 class SplashContent extends StatefulWidget {
   const SplashContent({super.key});

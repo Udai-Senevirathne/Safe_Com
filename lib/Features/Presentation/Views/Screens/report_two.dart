@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:safe_com/Features/Home/presentation/widgets/report_two_content.dart';
+import 'package:safe_com/Features/Presentation/Views/Widgets/report_two_content.dart';
+
 
 class ReportScreenTwo extends StatelessWidget {
   const ReportScreenTwo({super.key});
