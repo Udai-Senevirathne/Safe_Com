@@ -15,7 +15,7 @@ class App extends StatelessWidget {
       ),
       navigatorKey: AppNavigator.navigatorKey,
       onGenerateRoute: AppNavigator.generateRoute,
-      initialRoute: AppRoutes.setup,
+      initialRoute: AppRoutes.login,
     );
   }
 }
